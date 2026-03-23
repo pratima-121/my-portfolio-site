@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact | Pratima Marasini</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="brand">
+      <p class="brand-name">Pratima Marasini</p>
+      <p class="brand-role">Project Coordination | Operations | Cloud-Focused Delivery</p>
+    </div>
+
+    <nav class="site-nav" aria-label="Primary navigation">
+      <a href="index.html">About</a>
+      <a href="resume.html">Resume</a>
+      <a href="projects.html">Projects</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="subpage-header">
+      <h1>Contact Me</h1>
+    </section>
+
+    <section class="container">
+      <h2>Get in touch</h2>
+      <p>Email: <a href="mailto:marasinipratima@gmail.com">marasinipratima@gmail.com</a></p>
+      <p>Phone: <a href="tel:+14379677889">437-967-7889</a></p>
+
+      <h3>Send a message</h3>
+      <form class="contact-form" method="POST" action="#" onsubmit="event.preventDefault(); alert('Thank you! Your message has been submitted.'); this.reset();">
+        <label for="visitor-name">Name</label>
+        <input id="visitor-name" name="name" type="text" placeholder="Your name" required>
+
+        <label for="visitor-email">Email</label>
+        <input id="visitor-email" name="email" type="email" placeholder="your@email.com" required>
+
+        <label for="visitor-message">Message</label>
+        <textarea id="visitor-message" name="message" rows="6" placeholder="Your message here" required></textarea>
+
+        <button type="submit">Submit</button>
+      </form>
+    </section>
+  </main>
+</body>
+</html>
