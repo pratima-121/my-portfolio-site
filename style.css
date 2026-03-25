@@ -288,6 +288,38 @@ img {
   background: #fff;
 }
 
+.resume-download-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+}
+
+.resume-download-row p {
+  flex: 1;
+  margin: 0;
+}
+
+.btn-download {
+  display: inline-block;
+  white-space: nowrap;
+  background: var(--accent-coral);
+  color: white;
+  text-decoration: none;
+  border-radius: 10px;
+  padding: 0.75rem 1.25rem;
+  font-size: 1rem;
+  font-weight: 800;
+  transition: transform 180ms ease, box-shadow 180ms ease;
+}
+
+.btn-download:hover,
+.btn-download:focus-visible {
+  transform: translateY(-2px);
+  box-shadow: 0 12px 20px rgba(16, 16, 16, 0.16);
+}
+
 .contact-form button {
   width: fit-content;
   align-self: start;
